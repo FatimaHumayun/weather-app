@@ -1,0 +1,25 @@
+.recent-searches-container {
+  margin-top: 20px;
+}
+
+.recent-searches-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.recent-search-item {
+  background-color: #d2cfcf;
+  border: 1px solid #3c3a3a;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  text-align: center;
+  max-width: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.recent-search-item:hover {
+  background-color: #e0e0e0;
+}
